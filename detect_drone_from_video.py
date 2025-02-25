@@ -12,6 +12,9 @@ print(' MODEL NAMES', model.names)
 video_path = '/Users/rostyslav.krukovskyi/code/openCV/Drone_detection/bedDrone.mp4'  # Replace with the actual path to your video
 cap = cv2.VideoCapture(video_path)  # Load the video file
 
+# Set video source (webcam or video file)
+# cap = cv2.VideoCapture(0)
+
 # Define the classes you want to detect
 classes = ['drone']
 
